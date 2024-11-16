@@ -2,7 +2,7 @@
   parent: BaseWall
   id: WallCosmicCult
   name: malign wall
-  description: A strange-looking wall. Staring at it for too long instills a sense of discomfort. What were you doing here, again?
+  description: A strange-looking wall. Staring at it for too long instills a sense of discomfort..
   components:
   - type: CosmicItem
   - type: Tag

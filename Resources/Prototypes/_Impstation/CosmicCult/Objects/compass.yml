@@ -3,7 +3,7 @@
   parent: [ BaseCosmicCultContraband ]
   categories: [ HideSpawnMenu ]
   id: AbilityCosmicCultTool
-  description: A strange tool that resembles an astrolabe - an ancient form of astrological device. Inscribed on it seem to be words speaking of a 'crossing grounds'.
+  description: A strange tool that resembles an astrolabe - an ancient form of astrological device.
   components:
   - type: Unremoveable
   - type: Item
