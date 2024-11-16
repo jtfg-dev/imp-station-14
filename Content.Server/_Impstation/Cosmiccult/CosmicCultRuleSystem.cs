@@ -34,7 +34,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Audio;
 using Content.Shared.Cuffs.Components;
-using Content.Server.Radio.Components;
 
 namespace Content.Server._Impstation.Cosmiccult;
 
@@ -87,8 +86,8 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
         {
             var briefingShort = Loc.GetString("objective-cosmiccult-description", ("name", metaData?.EntityName ?? "Unknown"));
 
-            _antag.SendBriefing(target, Loc.GetString("cosmiccult-role-roundstart-fluff"), Color.FromHex("#4cabb3"), BriefingSound);
-            _antag.SendBriefing(target, Loc.GetString("cosmiccult-role-short-briefing"), Color.FromHex("#cae8e8"), null);
+            _antag.SendBriefing(target, Loc.GetString("cosmiccult-role-roundstart-fluff"), Color.MediumTurquoise, BriefingSound);
+            _antag.SendBriefing(target, Loc.GetString("cosmiccult-role-short-briefing"), Color.DarkOrchid, null);
 
             if (_role.MindHasRole<CosmicCultRoleComponent>(mindId, out var rbc))
             {
@@ -103,11 +102,6 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
         _npcFaction.AddFaction(target, CosmicCultFactionId);
 
         EnsureComp<CosmicCultComponent>(target);
-        var reciever = EnsureComp<IntrinsicRadioReceiverComponent>(target);
-        var transmitter = EnsureComp<IntrinsicRadioTransmitterComponent>(target);
-        var radio = EnsureComp<ActiveRadioComponent>(target);
-        radio.Channels = new() { "CosmicRadio" };
-        transmitter.Channels = new() { "CosmicRadio" };
 
         return true;
     }

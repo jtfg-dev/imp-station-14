@@ -66,12 +66,11 @@
       - id: BookAgony 
       - id: BookClownLaw
       - id: BookGatsby
-      - id: BookCosmicCult
       - !type:GroupSelector
         children:
         - id: BookKeelBay
         - id: BookKeelBayWorn
-        - id: BookTEGtorial
+      - id: BookTEGtorial
 
 - type: entity
   id: BookshelfFilled

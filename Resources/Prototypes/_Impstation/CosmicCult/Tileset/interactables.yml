@@ -6,7 +6,7 @@
   parent: BaseStructure
   id: MonumentCosmicCultBase
   name: The Monument
-  description: A great slab of unknowledge, only visible to those aware of it. Built of a thousand little nothings, its surface reflects a starless emptiness.
+  description: I place my holder till it [EXTREMELY LOUD INCORRECT BUZZER]
   suffix: Base
   components:
   - type: CosmicItem
