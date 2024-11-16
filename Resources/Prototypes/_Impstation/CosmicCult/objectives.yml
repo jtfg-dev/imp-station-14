@@ -31,7 +31,7 @@
   parent: [BaseCosmicCultObjective, BaseLivingObjective]
   id: EscapeCosmicCultShuttleObjective
   name: Escape to centcomm alive and unrestrained.
-  description: Wow you killed god or something! Live.
+  description: Leave whatever you helped summon to its work, for yours is done. Live to speak of your deeds.
   components:
   - type: Objective
     difficulty: 1.3

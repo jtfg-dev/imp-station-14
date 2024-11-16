@@ -1,13 +1,13 @@
 - type: antag
   id: CosmicCultAntag
-  name: roles-antag-heretic-name
+  name: roles-antag-heretic-name # That right?
   antagonist: true
   setPreference: true
-  objective: roles-antag-rev-objective
+  objective: roles-antag-rev-objective # That right?
 
 - type: antag
   id: CosmicLeaderAntag
-  name: roles-antag-heretic-name
+  name: roles-antag-heretic-name # That right?
   antagonist: true
   setPreference: false
-  objective: roles-antag-rev-head-objective
+  objective: roles-antag-rev-head-objective # That right?

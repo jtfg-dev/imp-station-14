@@ -2,7 +2,7 @@
   name: vacuous lance
   parent: [ BaseSword, BaseCosmicCultContraband ]
   id: SpearCosmicCult
-  description: An unnerving weapon, wrought with a strange glow. Touching it feels like a prickle of static against your nerves.
+  description: An unnerving spear, made of an indescribable material. The point looks razor-thin. Being near it feels like a prickle of static spreading through your nerves.
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/cosmiclance.rsi
