@@ -16,27 +16,27 @@ cosmiccult-gamemode-description =
     Scanners detect an anomalous increase in Λ-CDM. There is no additional data.
 
 
-cosmiccult-finale-autocall-briefing = The Monument activates {$minutesandseconds}! Gather yourselves, and prepare for the end.
+cosmiccult-finale-autocall-briefing = The Monument activates in {$minutesandseconds}! Gather yourselves, and prepare for the end.
 cosmiccult-finale-ready = A terrifying light surges forth from The Monument!
-cosmiccult-finale-count = There are {$COUNT} cultists empowering the monument..
+cosmiccult-finale-count = There are {$COUNT} cultists empowering the monument.
 cosmiccult-finale-cultist-count = {$COUNT ->
-    [0] The summoning is stagnant..
-    [1] The summoning begins to quicken.
-    [2] The summoning begins to quicken..
-    [3] The summoning is slowly quickening..
-    [4] The summoning quickens.
-    [5] The summoning quickens faster.
-    [6] The summoning is hastened!
+    [0] The summoning is stagnating...
+    [1] The summoning's energy warms slightly...
+    [2] The summoning pulses, as the beating of a heart...
+    [3] The summoning seems faster and faster...
+    [4] The summoning quickens. The world spins...
+    [5] The summoning is even faster still...
+    [6] The summoning's energy surges rhythmically through the station!
     *[other] The summoning is hastened by {$COUNT} cultists present!
 }
 
 cosmiccult-finale-degen = You feel yourself unravelling!
-cosmiccult-finale-location = Scanners are detecting an enormous Λ-CDM spike {$location}!
-cosmiccult-finale-cancel-begin = You begin to disrupt The Monument's energies..
-cosmiccult-finale-beckon-begin = You begin to Beckon The Unknown..
-cosmiccult-finale-beckon-success = You beckon for the final curtain call.
+cosmiccult-finale-location = Scanners are detecting an enormous Λ-CDM spike at {$location}!
+cosmiccult-finale-cancel-begin = Your mind's willpower begins to shatter the ritual...
+cosmiccult-finale-beckon-begin = The whispers in the back of your mind intensify...
+cosmiccult-finale-beckon-success = You have made contact...!!
 
-cosmiccult-monument-powerdown = The Monument falls silent..
+cosmiccult-monument-powerdown = The Monument falls suddenly, eerily silent.
 
 ## ROUNDEND TEXT
 
@@ -45,11 +45,11 @@ cosmiccult-roundend-cultist-count = {$initialCount ->
     *[other] There were {$initialCount} [color=#4cabb3]Cosmic Cultists[/color].
 }
 cosmiccult-roundend-entropy-count = The cult siphoned {$count} Entropy.
-cosmiccult-roundend-cultpop-count = Cultists made up {$count}% of the crew.
+cosmiccult-roundend-cultpop-count = Cultists made up {$count}% of the crew at the end.
 cosmiccult-roundend-monument-stage = {$stage ->
-    [1] The Monument was abandoned.
-    [2] The Monument made some progress.
-    [3] The Monument was completed!
+    [1] Alas, the Monument seems abandoned.
+    [2] The Monument progressed, but completion was out of reach.
+    [3] The Monument was completed.
     *[other] [color=red]Something went REALLY wrong.[/color]
 }
 
@@ -69,8 +69,8 @@ cosmiccult-summary-crewminor = The cult has been left leaderless.
 cosmiccult-summary-crewmajor = All cosmic cultists were eliminated.
 cosmiccult-summary-crewcomplete = Every single cosmic cultist was deconverted!
 
-cosmiccult-elimination-shuttle-call = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. We will call emergency shuttle that will arrive shortly. ETA: {$time} {$units}. You can recall the shuttle to extend the shift.
-cosmiccult-elimination-announcement = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. Shuttle is already called.
+cosmiccult-elimination-shuttle-call = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. We thank you for your prudence. An emergency shuttle has been automatically called to the station for decontamination and debriefing procedures. ETA: {$time} {$units}. Please note, if the psychological impact of the anomaly is negligible, you may recall the shuttle to extend the shift.
+cosmiccult-elimination-announcement = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. We thank you for your prudence. An emergency shuttle is already inbound. Return to CentComm safely for decontamination and debriefing procedures.
 
 
 ## BRIEFINGS
@@ -104,7 +104,7 @@ cosmiccult-role-deconverted-briefing =
 
 cosmiccult-monument-stage1-briefing =
     The Monument has been beckoned.
-    It is located {$location}!
+    It is located in {$location}!
 
 cosmiccult-monument-stage2-briefing =
     The Monument grows in power!
@@ -118,14 +118,14 @@ cosmiccult-monument-stage3-briefing =
 ## MALIGN RIFTS
 
 cosmiccult-rift-inuse = You can't do this right now.
-cosmiccult-rift-invaliduser = You lack the tools to deal with this.
-cosmiccult-rift-chaplainoops = You should probably use a bible or gildgrail.
-cosmiccult-rift-alreadyempowered = You don't need to absorb another one.
-cosmiccult-rift-beginabsorb = You begin absorbing the malign rift..
-cosmiccult-rift-beginpurge = You begin purging the malign rift..
+cosmiccult-rift-invaliduser = You'll need something, or someone, else.
+cosmiccult-rift-chaplainoops = Wield your holy scripture, or a gildgrail.
+cosmiccult-rift-alreadyempowered = You are already empowered; the rift's power would be wasted.
+cosmiccult-rift-beginabsorb = The rift silently begins to merge with you.
+cosmiccult-rift-beginpurge = Your consecration begins purging the malign rift.
 
-cosmiccult-rift-absorb = You absorb the malign rift, empowering yourself.
-cosmiccult-rift-purge = You purge the malign rift.
+cosmiccult-rift-absorb = The rift becomes a part of you; its strength, your own.
+cosmiccult-rift-purge = The rift is purged from reality!
 
 
 
@@ -173,7 +173,7 @@ objective-condition-victory-desc = Beckon The Unknown, and herald the final curt
 
 ## CHAT ANNOUNCEMENTS
 
-cosmiccult-radio-tier1-progress = The monument is beckoned unto realspace..
+cosmiccult-radio-tier1-progress = The Monument is beckoned unto the station...
 cosmiccult-announce-tier2-progress = An unnerving numbness prickles your senses.
 cosmiccult-announce-tier2-warning = Scanners detect a notable increase in Λ-CDM! Rifts in realspace may appear shortly. Please alert your station's chaplain if sighted.
 
