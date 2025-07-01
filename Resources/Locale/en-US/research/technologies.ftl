@@ -42,7 +42,8 @@ research-technology-thermal-weaponry = Thermal Weaponry
 
 research-technology-basic-robotics = Basic Robotics
 research-technology-basic-anomalous-research = Basic Anomalous Research
-research-technology-basic-xenoarcheology = Basic XenoArcheology
+# imp typo fix
+research-technology-basic-xenoarcheology = Basic Xenoarchaeology
 research-technology-alternative-research = Alternative Research
 research-technology-magnets-tech = Localized Magnetism
 research-technology-advanced-parts = Advanced Parts
