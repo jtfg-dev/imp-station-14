@@ -69,6 +69,7 @@
 - type: entity
   id: MachineFrame
   name: machine frame
+  description: A collection of machine parts, roughly assembled and ready to be put to use. # imp
   suffix: Ready
   placement:
     mode: SnapgridCenter
@@ -147,6 +148,7 @@
   id: MachineFrameDestroyed
   parent: BaseStructureDynamic
   name: destroyed machine frame
+  description: A machine-base that has taken some serious structure damage. It can still be repaired: or beaten back into its component parts. # imp
   placement:
     mode: SnapgridCenter
   components:
